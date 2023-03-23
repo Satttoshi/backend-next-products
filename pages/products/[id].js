@@ -19,7 +19,7 @@ export default function Products() {
   const product = data;
 
   return (
-    <section key={product.id}>
+    <section>
       <h2>{product.name}</h2>
       <p>{product.description}</p>
       <p>
